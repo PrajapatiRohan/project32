@@ -46,7 +46,7 @@ async function getBackgroundImg(){
     var response = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
    
     
-    //console.log(datatime);
+    //console.log(datatime1);
 
     var responseJSON = await response.json();
     var datatime = responseJSON.datetime;
